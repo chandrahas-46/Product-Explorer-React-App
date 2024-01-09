@@ -19,7 +19,7 @@ export function Categories(){
     return(
         <div>
             {uniqueCategories.map((category) => (
-                <Link to={`/products/categor/${category}`}>
+                <Link to={`/products/category/${category}`}>
                     <button className={styles.cat}>{category}</button>
                 </Link>
             ))}
